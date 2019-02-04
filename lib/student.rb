@@ -5,6 +5,6 @@ class Student < User
   end
 
   def learn
-    @knowledge.each {|knowledge| puts knowledge}
+    @knowledge
   end
 end
