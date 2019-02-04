@@ -5,6 +5,6 @@ class Student < User
   end
 
   def learn
-    @knowledge.map {|knowledge| puts knowledge}
+    @knowledge.each {|knowledge| puts knowledge}
   end
 end
